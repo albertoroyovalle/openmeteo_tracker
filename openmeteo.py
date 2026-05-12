@@ -15,7 +15,7 @@ params = {
 	"latitude":lat,
 	"longitude": lon,
 	"hourly": ["temperature_2m", "cloud_cover", "cloud_cover_low", "cloud_cover_mid", "cloud_cover_high", "visibility"],
-    "models": "ecmwf_ifs",
+    "models": ["ecmwf_ifs","arpege_europe", "arome_france_hd"],
 	"timezone": "auto",
 }
 
